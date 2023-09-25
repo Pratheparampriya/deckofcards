@@ -1,5 +1,5 @@
 import itertools,random
-deck=list(itertools.product(range(1,14),['spade','heart','diamond','club']))
+deck=list(itertools.product(range(1,10),['spade','heart','diamond','club']))
 random.shuffle(deck)
 print("you got:")
 for i in range(5):
